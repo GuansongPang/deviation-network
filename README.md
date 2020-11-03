@@ -7,17 +7,15 @@ Deviation network (DevNet) is introduced in our KDD19 paper, which leverages a l
 Unlike other deep anomaly detection methods that focus on using data reconstruction as the driving force to learn new representations, DevNet is devised to learn the anomaly scores directly. Therefore, DevNet directly optimize the anomaly scores, whereas most of current deep anomaly detection methods optimize the feature representations. The resulting DevNet model achieves significantly better anomaly scoring than the competing deep methods. Also, due to the end-to-end anomaly scoring, DevNet can also exploit the labeled anomaly data much more effectively. 
 
 ## Usage
-A simple example of runing DevNet is shown as follows.
+A simple example of running DevNet is shown as follows.
 ```python
 python devnet_kdd19.py --network_depth=2 --runs=10 --known_outliers=30 --cont_rate=0.02 --data_format=0 --output=./results.csv --dataset=`annthyroid_21feat_normalised`
 ````
 See devnet_kdd19.py for more details about each argument used in this line of code.
 
-The relevant packages and their versions used in our algorithm implementation are listed as follows
+The key packages and their versions used in our algorithm implementation are listed as follows
 * python==3.6.6
 * keras==2.2.4
-* keras-applications==1.0.6
-* keras-preprocessing==1.0.5
 * tensorflow-gpu==1.10.0
 * scikit-learn==0.20.0
 * numpy==1.14.5
