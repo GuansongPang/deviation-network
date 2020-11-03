@@ -30,6 +30,9 @@ See the full paper below for the implemenation details of DevNet.
 ## Full Paper
 The full paper can be found at [ACM Portal](https://dl.acm.org/citation.cfm?id=3330871) or [arXiv](https://arxiv.org/abs/1911.08623)
 
+## Datasets
+The datasets used in DevNet are also released here. See our anomaly detection dataset repository [ADRepository](https://github.com/GuansongPang/anomaly-detection-datasets) for more preprocessed datasets that are widely-used in other papers.
+
 ## Citation
 >Guansong Pang, Chunhua Shen, and Anton van den Hengel. "Deep anomaly detection with deviation networks." In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining, pp. 353-362. 2019.
 
