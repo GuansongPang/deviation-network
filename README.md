@@ -1,4 +1,4 @@
-# deviation-network
+# DevNet： An End-to-end Anomaly Score Learning Network
 Deep anomaly detection with deviation networks (KDD19)
 
 Guansong Pang, Chunhua Shen, Anton van den Hengel, University of Adelaide, Adelaide, Australia
