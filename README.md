@@ -1,6 +1,8 @@
 # DevNet: An End-to-end Anomaly Score Learning Network
 By Guansong Pang, Chunhua Shen, Anton van den Hengel. Deep anomaly detection with deviation networks (KDD19).
 
+**PyTorch implementation is released at [DevNet-PyTorch](https://github.com/Choubo/deviation-network-image)**. The method is extended with some additional modules and evaluated on image datasets. It offers faithful anomaly explanation and performs effectively in open-set anomaly detection settings where there are unseen anomaly classes during testing.
+
 ## Brief Introduction
 Deviation network (DevNet) is introduced in our KDD19 paper, which leverages a limited number of labeled anomaly data and a large set of unlabeled data to perform end-to-end anomaly score learning. It addresses a weakly supervised anomaly detection problem in that the anomalies are partially observed only and we have no labeled normal data.
 
@@ -32,6 +34,14 @@ The full paper can be found at [ACM Portal](https://dl.acm.org/citation.cfm?id=3
 The datasets used in DevNet are also released here. See our anomaly detection dataset repository [ADRepository](https://github.com/GuansongPang/anomaly-detection-datasets) for more preprocessed datasets that are widely-used in other papers.
 
 ## Citation
->Guansong Pang, Chunhua Shen, and Anton van den Hengel. "Deep anomaly detection with deviation networks." In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining, pp. 353-362. 2019.
+```bibtex
+@inproceedings{pang2019deep,
+  title={Deep anomaly detection with deviation networks},
+  author={Pang, Guansong and Shen, Chunhua and van den Hengel, Anton},
+  booktitle={Proceedings of the 25th ACM SIGKDD international conference on knowledge discovery \& data mining},
+  pages={353--362},
+  year={2019}
+}
+```
 
 
